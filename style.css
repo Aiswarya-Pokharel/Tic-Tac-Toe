@@ -6,16 +6,19 @@
 body{
   background-color: #548687;
   text-align: center;
+  min-height: 100vh;
 }
 h1{
   font-size: 4vw;
   color: white;
+  margin-bottom: 2rem;
 }
 .game{
-  height: 70vh;
+  height: 50vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+   justify-content: center; 
+   align-items: center; 
+   margin-bottom: 2rem;
 }
 .btns{
   height: 60vmin;
@@ -37,20 +40,19 @@ h1{
   background-color:beige ;
   color: black;
 }
-.message{
-  height: 30vmin;
-}
-#reset, #new-btn{
-  padding: 1rem;
-  font-size: 1.25rem;
+
+ #reset, #new-btn{
+  padding: 0.7rem;
+  font-size: 1.5rem;
   background-color: #191913;
   color: #fff;
   border-radius: 1rem;
   border: none;
-}
+  margin-top: 0.5rem;
+} 
 #msg{
   color: #ffffc7;
-  font-size: 8vmin;
+  font-size: 7vmin;
 }
 .hide{
   display: none;
